@@ -1,7 +1,6 @@
 .section {
     height: 80vh;
     width: 100vw;
-    background: url('build/assets/bg4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -44,7 +43,11 @@
 }
 
 .section.about {
-    background-color: red;
+    background: url('build/assets/bg4.jpg');
+}
+
+.section.experience {
+    background: url('build/assets/bg1.jpg');
 }
 
 html, body {
