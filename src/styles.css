@@ -46,7 +46,7 @@
     background: url('build/assets/bg4.jpg');
 }
 
-.section.experience {
+.section.early-years {
     background: url('build/assets/bg1.jpg');
 }
 
@@ -75,4 +75,10 @@ html, body {
 .about-me-bio {
     display: inline-block;
     font-size: 0.6rem;
+}
+
+.section-main-description {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
 }
