@@ -54,6 +54,10 @@
     background-image: url('build/assets/bg5.jpg');
 }
 
+.section.mid-years {
+    background-image: url('build/assets/bg10.jpg');
+}
+
 html, body {
     font-size: 20px;
     font-family: monospace;
@@ -103,4 +107,14 @@ html, body {
     height: 6rem;
     margin: 0 0.3rem;
     border-radius: 5px;
+}
+
+a, a:visited, a:hover, a:active, a:link {
+    color: white;
+}
+
+.icon {
+    width: 0.6rem;
+    height: 0.6rem;
+    vertical-align: middle;
 }
