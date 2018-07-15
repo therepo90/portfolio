@@ -1,5 +1,5 @@
 .section {
-    height: 80vh;
+    height: 85vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,11 +43,15 @@
 }
 
 .section.about {
-    background: url('build/assets/bg4.jpg');
+    background-image: url('build/assets/bg4.jpg');
 }
 
 .section.early-years {
-    background: url('build/assets/bg1.jpg');
+    background-image: url('build/assets/bg1.jpg');
+}
+
+.section.early-years-cont {
+    background-image: url('build/assets/bg5.jpg');
 }
 
 html, body {
@@ -79,6 +83,24 @@ html, body {
 
 .section-main-description {
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     line-height: 1rem;
+    background-color: rgba(63, 63, 63, 0.5);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.image-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.2rem 0;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+}
+
+.image-screenshot {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 0.3rem;
+    border-radius: 5px;
 }
