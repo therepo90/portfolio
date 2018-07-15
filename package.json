@@ -1,7 +1,7 @@
 {
-  "name": "react-startup",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Startup project setup with react/typescript",
+  "description": "My portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",

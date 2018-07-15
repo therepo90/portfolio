@@ -1,3 +1,3 @@
-# react-startup
+# portfolio
 
-Startup project setup with react/typescript
+My portfolio
