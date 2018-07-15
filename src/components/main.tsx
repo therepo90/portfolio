@@ -4,13 +4,14 @@ import AboutMe from "./about-me";
 import EarlyYears from "./early-years";
 import EarlyYearsCont from "./early-years-cont";
 import MidYears from "./mid-years";
+import Cut from "./cut";
 
 export default class Main extends Component {
     render() {
         return <div className="page-container">
-            { /* <AboutMe /> */ }
-            { /* <EarlyYears /> */ }
-            { /* <EarlyYearsCont /> */ }
+            {<AboutMe />}
+            {<EarlyYears />}
+            {<EarlyYearsCont />}
             <MidYears />
         </div>
     }

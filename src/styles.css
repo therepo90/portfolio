@@ -118,3 +118,14 @@ a, a:visited, a:hover, a:active, a:link {
     height: 0.6rem;
     vertical-align: middle;
 }
+
+.svg {
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+}
+
+.svg-container {
+    position: relative;
+    width: 100%;
+}
