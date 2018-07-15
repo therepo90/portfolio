@@ -1,3 +1,30 @@
-.main {
-    flex: 1;
+.section {
+    height: 100vh;
+    width: 100vw;
+    background: url('build/assets/bg1.jpg');
+    position: relative;
+    color: white;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.section-header {
+    font-size: 3rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.section.about {
+    background-color: red;
+}
+
+html, body {
+    font-size: 12px;
+    font-family: monospace;
 }
