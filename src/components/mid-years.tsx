@@ -29,7 +29,7 @@ export default class MidYears extends Component {
                   I remember creating my first handy C++ app that was helpful for me:  It was "Horner-schema solver".
                   <br />
                   <br />
-                  I've returned to game development, joined <a href="https://warsztat.gd/user/lastseeds/projects">www.warsztat.gd</a> and created a couple of games
+                  I've returned to game development, joined <img src="build/assets/warsztat-icon.jpg" className="icon" /><a href="https://warsztat.gd/user/lastseeds/projects">www.warsztat.gd</a> and created a couple of games
                   with C++/SFML/SDL/OpenGL(funny thing is I was still writing code in polish). I remember creating programming solutions which later
                   I found to be ubiquitous programming patterns and rules of thumb. That was pretty fun.
                 <div className="image-screenshots">
