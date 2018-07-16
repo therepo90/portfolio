@@ -58,24 +58,33 @@
 }
 
 .section.mid-years {
-    background-image: url('build/assets/backgrounds/bg10.jpg');
+    background-image: url('build/assets/backgrounds/bg19.jpg');
 }
 
 .section.college {
-    background-image: url('build/assets/backgrounds/bg14.jpg');
+    background-image: url('build/assets/backgrounds/bg17.png');
 }
 
 .section.college-cont {
-    background-image: url('build/assets/backgrounds/bg12.jpg');
+    background-image: url('build/assets/backgrounds/bg15.jpg');
+}
+
+.section.jobs {
+    background-image: url('build/assets/backgrounds/bg17.jpg');
 }
 
 .section-main-description {
     margin-top: 1rem;
     font-size: 0.75rem;
     line-height: 1rem;
-    background-color: rgba(63, 63, 63, 0.5);
+    background-color: rgba(63, 63, 63, 0.55);
     border-radius: 10px;
     padding: 1rem;
+}
+
+.section-main-description > p:first-letter,
+.section-description > p:first-letter {
+    font-size: 1.3rem;
 }
 
 .image-screenshots {
@@ -96,9 +105,12 @@
 .image-near-text {
     float: left;
     height: 6rem;
+    margin-right: 1.6rem;
+}
+
+.image-near-text.filled {
     background: white;
     border-radius: 30px;
-    margin-right: 1.6rem;
 }
 
 .section-with-floating-image {

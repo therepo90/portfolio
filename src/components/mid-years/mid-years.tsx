@@ -17,6 +17,7 @@ export default class MidYears extends Component {
                 High school
                 </div>
             <div className="section-main-description">
+            <p>
                 So after going to middle-school I switched to creating bots for MMOs like Silkroad/Knight online and I really wanted to learn creating private servers
                 and bots. Around 2007 I found excellent Windows API <a href="http://xion.org.pl/">http://xion.org.pl/</a> tutorial, but it needed C++ knowledge.
 
@@ -41,6 +42,7 @@ export default class MidYears extends Component {
                         </a>
                     </div>)}
                 </div>
+            </p>
             </div>
         </div >
     }
