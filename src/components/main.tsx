@@ -7,6 +7,7 @@ import MidYears from "./mid-years/mid-years";
 import Cut from "./cut/cut";
 import Gate from "./gate/gate";
 import CollegeYears from "./college-years/college-years";
+import CollegeYearsCont from "./college-years-cont/college-years-cont";
 
 export default class Main extends Component {
     render() {
@@ -18,6 +19,7 @@ export default class Main extends Component {
                 {<EarlyYearsCont />}
                 <MidYears />
                 <CollegeYears />
+                <CollegeYearsCont />
             </div>
         </React.Fragment>
     }

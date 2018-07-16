@@ -23,10 +23,12 @@ export default class MidYears extends Component {
                  Fortunately there was also full pdf containing C++ tutorial so I've read it and done all exercises including games like tic-tac-toe.
                  <br /> C++ was so awesome I wanted to learn more so
                 I've bought two C++ books 'Thinking in C++', read it and done all exercices. Also it was about time for my mature exam and I
-                 was doing a lot of math school tasks and I wanted to boost up my calculation work. I remember one day dad gave me a book 'Śladami Pitagorasa' and I
-                  went in love with math <img src="build/assets/icons/heart.png" className="icon" />. Everything seemed so pretty and I found math appliance in world.
-                  <br />
-                I remember creating my first handy C++ app that was helpful for me:  It was "Horner-schema solver".
+                 was doing a lot of math school tasks and I wanted to boost up my calculation work. I remember creating
+                  my first handy C++ app that was helpful for me:  it was "Horner-schema solver".
+                 <br />I remember one day dad gave me a book 'Śladami Pitagorasa' and I
+                  went in love with math <img src="build/assets/icons/heart.png" className="icon" />. Everything seemed so pretty and I found math appliance 
+                  in real world and saw its beauty.
+                
                   <br />
                 <br />
                 I've returned to game development, joined <img src="build/assets/icons/warsztat-icon.jpg" className="icon" /><a href="https://warsztat.gd/user/lastseeds/projects">www.warsztat.gd</a> and created a couple of games

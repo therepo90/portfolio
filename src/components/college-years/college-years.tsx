@@ -17,7 +17,7 @@ const images = ['build/assets/games/flash1.jpg',
 export default class CollegeYears extends Component {
 
     render() {
-        return <div className="section mid-years">
+        return <div className="section college">
             <div className="section-header">
                 College
                 </div>

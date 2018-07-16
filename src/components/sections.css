@@ -61,6 +61,14 @@
     background-image: url('build/assets/backgrounds/bg10.jpg');
 }
 
+.section.college {
+    background-image: url('build/assets/backgrounds/bg14.jpg');
+}
+
+.section.college-cont {
+    background-image: url('build/assets/backgrounds/bg12.jpg');
+}
+
 .section-main-description {
     margin-top: 1rem;
     font-size: 0.75rem;
