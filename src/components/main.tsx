@@ -8,11 +8,21 @@ import Cut from "./cut";
 
 export default class Main extends Component {
     render() {
-        return <div className="page-container">
-            {<AboutMe />}
-            {<EarlyYears />}
-            {<EarlyYearsCont />}
-            <MidYears />
-        </div>
+        return <React.Fragment>
+            <div className="gate-container">
+                <div className="gate left">
+                    <img src="build/assets/knocker-left.png" className="knocker knocker-left" />
+                </div>
+                <div className="gate right">
+                    <img src="build/assets/knocker-right.png" className="knocker knocker-right" />
+                </div>
+            </div>
+            <div className="page-container">
+                {<AboutMe />}
+                {<EarlyYears />}
+                {<EarlyYearsCont />}
+                <MidYears />
+            </div>
+        </React.Fragment>
     }
 };
