@@ -14,7 +14,7 @@ export default class MidYears extends Component {
     render() {
         return <div className="section mid-years">
             <div className="section-header">
-                Mid years
+                High school
                 </div>
             <div className="section-main-description">
                 So after going to middle-school I switched to creating bots for MMOs like Silkroad/Knight online and I really wanted to learn creating private servers

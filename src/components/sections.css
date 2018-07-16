@@ -6,6 +6,7 @@
     color: white;
     padding: 2rem 10rem;
     box-shadow: inset 0px 0 2rem 1rem rgba(0,0,0,0.8);
+    min-height: 30rem;
 }
 
 .dotted-container {
@@ -82,4 +83,16 @@
     height: 6rem;
     margin: 0 0.3rem;
     border-radius: 5px;
+}
+
+.image-near-text {
+    float: left;
+    height: 6rem;
+    background: white;
+    border-radius: 30px;
+    margin-right: 1.6rem;
+}
+
+.section-with-floating-image {
+    display: flex;
 }

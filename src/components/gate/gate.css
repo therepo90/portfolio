@@ -1,5 +1,3 @@
-
-
 .gate-container {
     position: fixed;
     z-index: 1000;
@@ -34,7 +32,7 @@
 .gate.right {
     right: 0;
     animation-name: slide-right;
-    transform: scaleX(-1)
+    transform: scaleX(-1);
 }
 
 @keyframes slide-left {
