@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Component } from "react";
 
-const images = ['build/assets/game-calc.PNG', 'build/assets/game-delforce.PNG', 'build/assets/game-gra.PNG', 'build/assets/game-klawisz.PNG',
-    'build/assets/game-komorka.PNG',
-    'build/assets/game-konkurs.PNG',
-    'build/assets/game-strzelnica.PNG',
-    'build/assets/game-wezyk.PNG'];
+const images = ['build/assets/games/game-calc.PNG', 'build/assets/games/game-delforce.PNG', 'build/assets/games/game-gra.PNG', 'build/assets/games/game-klawisz.PNG',
+    'build/assets/games/game-komorka.PNG',
+    'build/assets/games/game-konkurs.PNG',
+    'build/assets/games/game-strzelnica.PNG',
+    'build/assets/games/game-wezyk.PNG'];
 
 export default class EarlyYearsCont extends Component {
 

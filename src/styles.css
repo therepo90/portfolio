@@ -68,19 +68,19 @@ html, body {
 }
 
 .section.about {
-    background-image: url('build/assets/bg4.jpg');
+    background-image: url('build/assets/backgrounds/bg4.jpg');
 }
 
 .section.early-years {
-    background-image: url('build/assets/bg1.jpg');
+    background-image: url('build/assets/backgrounds/bg1.jpg');
 }
 
 .section.early-years-cont {
-    background-image: url('build/assets/bg5.jpg');
+    background-image: url('build/assets/backgrounds/bg5.jpg');
 }
 
 .section.mid-years {
-    background-image: url('build/assets/bg10.jpg');
+    background-image: url('build/assets/backgrounds/bg10.jpg');
 }
 
 .about-me-img {
@@ -161,7 +161,7 @@ a, a:visited, a:hover, a:active, a:link {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('build/assets/gate10.jpg');
+    background-image: url('build/assets/gate/gate10.jpg');
     box-shadow: inset 0px 0 5rem 4rem rgba(0,0,0,0.8);
     top:0;
     animation-duration: 4s;
