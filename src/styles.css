@@ -162,12 +162,13 @@ a, a:visited, a:hover, a:active, a:link {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('build/assets/gate10.jpg');
-    box-shadow: inset 0px 0 5rem 2rem rgba(0,0,0,0.8);
+    box-shadow: inset 0px 0 5rem 4rem rgba(0,0,0,0.8);
     top:0;
-    animation-duration: 92240s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+    animation-delay: 1s;
 }
 
 .gate.left {
@@ -178,6 +179,7 @@ a, a:visited, a:hover, a:active, a:link {
 .gate.right {
     right: 0;
     animation-name: slide-right;
+    transform: scaleX(-1)
 }
 
 @keyframes slide-left {
@@ -205,14 +207,64 @@ a, a:visited, a:hover, a:active, a:link {
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
+    width: 100px;
     height: 60vh;
     filter: drop-shadow(0rem 0rem 0.5rem #222222);
-}
-
-.knocker-left {
     right: 0;
 }
 
-.knocker-right {
-    left: 0;
+.eye {
+    z-index: 2;
+    right: 0;   
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0.15s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes glow {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0.8;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.shadow {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    z-index: 3;   
+
+    animation-duration: 0.3s;
+    animation-name: shadow-anim;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes shadow-anim {
+    0% {
+        box-shadow: none;
+    }
+    
+    100% {
+        box-shadow: 0.5rem 0px 0.5rem 0px rgba(0,0,0,0.75);
+    }
 }
