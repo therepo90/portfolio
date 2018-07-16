@@ -1,0 +1,125 @@
+
+
+.gate-container {
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.gate {
+    display: inline-block;
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('build/assets/gate/gate10.jpg');
+    box-shadow: inset 0px 0 5rem 4rem rgba(0,0,0,0.8);
+    top:0;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.gate.left {
+    left:0;
+    animation-name: slide-left;
+}
+
+.gate.right {
+    right: 0;
+    animation-name: slide-right;
+    transform: scaleX(-1)
+}
+
+@keyframes slide-left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -50vw;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        right: 0;
+    }
+    to {
+        right: -50vw;
+    }
+}
+
+.knocker {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 60vh;
+    filter: drop-shadow(0rem 0rem 0.5rem #222222);
+    right: 0;
+}
+
+.eye {
+    z-index: 2;
+    right: 0;   
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0.15s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes glow {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0.8;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.shadow {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    z-index: 3;   
+
+    animation-duration: 0.3s;
+    animation-name: shadow-anim;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes shadow-anim {
+    0% {
+        box-shadow: none;
+    }
+    
+    100% {
+        box-shadow: 0.5rem 0px 0.5rem 0px rgba(0,0,0,0.75);
+    }
+}
