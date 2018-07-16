@@ -18,7 +18,7 @@ export default class EarlyYearsCont extends Component {
                 So I needed to know more about creating games and had neither source of knowledge nor money to
                 get one. So I asked my dad to buy me a book Visual Basic 6 and I went full cave-programming. During 2004/2005 I've created a bunch of games:
                 <div className="image-screenshots">
-                    {images.map(image => <div>
+                    {images.map( (image, i) => <div key={i}>
                         <a href={image}>
                             <img src={image} className="image-screenshot" />
                         </a>
