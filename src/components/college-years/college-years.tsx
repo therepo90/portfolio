@@ -19,10 +19,13 @@ export default class CollegeYears extends Component {
     render() {
         return <div className="section college">
             <div className="section-header">
-                College
+                College 2009-2010
                 </div>
             <div className="section-main-description section-with-floating-image">
-                <img src="build/assets/agh-2.png" className="image-near-text filled" />
+                <div className="side-images">
+                    <img src="build/assets/agh-2.png" className="image-near-text filled" />
+                    <img src="build/assets/icons/as2.png" className="image-near-text image-near-text-as" />
+                </div>
                 <p>
                     <span>After passing my mature exam I went to IT studies where I wasn't very happy hence when a college friend of mine
                         offered me a job as a Flash Game developer(Actionscript) I took it. It was a 7-man students company where I was paid ~2$/hour which after

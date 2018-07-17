@@ -9,6 +9,7 @@ import Gate from "./gate/gate";
 import CollegeYears from "./college-years/college-years";
 import CollegeYearsCont from "./college-years-cont/college-years-cont";
 import Jobs from "./jobs/jobs";
+import JobsCont from "./jobs.1/jobs-cont";
 
 export default class Main extends Component {
     state = {
@@ -34,6 +35,7 @@ export default class Main extends Component {
                 <CollegeYears />
                 <CollegeYearsCont />
                 <Jobs />
+                <JobsCont />
             </div>
         </React.Fragment>
     }

@@ -14,9 +14,10 @@ export default class MidYears extends Component {
     render() {
         return <div className="section mid-years">
             <div className="section-header">
-                High school
+                High school 2006-2009
                 </div>
-            <div className="section-main-description">
+            <div className="section-main-description section-with-floating-image">
+            <img src="build/assets/icons/cpp.png" className="image-near-text" />
             <p>
                 So after going to middle-school I switched to creating bots for MMOs like Silkroad/Knight online and I really wanted to learn creating private servers
                 and bots. Around 2007 I found excellent Windows API <a href="http://xion.org.pl/">http://xion.org.pl/</a> tutorial, but it needed C++ knowledge.

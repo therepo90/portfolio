@@ -12,9 +12,10 @@ export default class EarlyYearsCont extends Component {
     render() {
         return <div className="section early-years-cont">
             <div className="section-header">
-                Early years cont.
+                Early years 2003-2006
                 </div>
-            <div className="section-main-description">
+            <div className="section-main-description section-with-floating-image">
+            <img src="build/assets/icons/vb.png" className="image-near-text filled" />
                 <p>
                     So I needed to know more about creating games and had neither source of knowledge nor money to
                     get one. So I asked my dad to buy me a book Visual Basic 6 and I went full cave-programming. During 2004/2005 I've created a bunch of games:

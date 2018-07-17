@@ -103,9 +103,25 @@
 }
 
 .image-near-text {
-    float: left;
+    max-width: 6rem;
     height: 6rem;
     margin-right: 1.6rem;
+}
+
+.image-near-text-unity {
+    margin-top: 19rem;
+}
+
+.image-near-text-as {
+    margin-top: 2rem;
+}
+
+.image-near-text-csharp {
+    margin-top: 17rem;
+}
+
+.image-near-text-java {
+    margin-top: 2rem;
 }
 
 .image-near-text.filled {
@@ -115,4 +131,14 @@
 
 .section-with-floating-image {
     display: flex;
+}
+
+.side-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
