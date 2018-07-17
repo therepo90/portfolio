@@ -4,6 +4,7 @@ import * as ReactDOM from 'react-dom';
 const styles: string[] = [
     require('./base.css'),
     require('./components/sections.css'),
+    require('./components/navbar/navbar.css'),
     require('./components/about-me/about-me.css'),
     require('./components/gate/gate.css'),
     require('./components/cut/cut.css')

@@ -11,6 +11,7 @@ import CollegeYearsCont from "./college-years-cont/college-years-cont";
 import Jobs from "./jobs/jobs";
 import JobsCont from "./jobs-cont/jobs-cont";
 import JobsCont2 from "./jobs-cont-2/jobs-cont-2";
+import Navbar from "./navbar/navbar";
 
 export default class Main extends Component {
     state = {
@@ -27,7 +28,8 @@ export default class Main extends Component {
     }
     render() {
         return <React.Fragment>
-            {this.state.gateVisible && <Gate /> } 
+            {this.state.gateVisible && <Gate /> }
+            <Navbar /> 
             <div className="page-container">
                 {<AboutMe />}
                 {<EarlyYears />}

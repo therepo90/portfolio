@@ -1,0 +1,30 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    z-index: 10;
+    margin: 1rem 0.2rem;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-links > a{
+    padding: 0 0.2rem;
+}
+
+.navbar-img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.navbar-img.filled {
+    background: white;
+    border-radius: 30px;
+}
