@@ -73,6 +73,10 @@
     background-image: url('build/assets/backgrounds/bg17.jpg');
 }
 
+.section.jobs-cont {
+    background-image: url('build/assets/backgrounds/bg10.jpg');
+}
+
 .section-main-description {
     margin-top: 1rem;
     font-size: 0.75rem;
@@ -124,6 +128,10 @@
     margin-top: 2rem;
 }
 
+.image-near-text-rr {
+    margin-top: 30rem;
+}
+
 .image-near-text.filled {
     background: white;
     border-radius: 30px;
@@ -141,4 +149,8 @@
 .center {
     display: flex;
     justify-content: center;
+}
+
+.stroke {
+    text-decoration: line-through;
 }
