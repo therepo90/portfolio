@@ -15,7 +15,8 @@ import Navbar from "./navbar/navbar";
 
 export default class Main extends Component {
     state = {
-        gateVisible: true // enable me please...
+        gateVisible: true,  // enable me please...
+        showPage: false,
     }
 
     componentDidMount() {
@@ -24,23 +25,31 @@ export default class Main extends Component {
             this.setState({
                 gateVisible: false,
             })
-        },5000);
+        }, 5000);
+        setTimeout(() => {
+            this.setState({
+                showPage: true,
+            })
+        }, 700);
     }
     render() {
         return <React.Fragment>
-            {this.state.gateVisible && <Gate /> }
-            <Navbar /> 
-            <div className="page-container">
-                {<AboutMe />}
-                {<EarlyYears />}
-                {<EarlyYearsCont />}
-                <MidYears />
-                <CollegeYears />
-                <CollegeYearsCont />
-                <Jobs />
-                <JobsCont />
-                <JobsCont2 />
-            </div>
+            {this.state.gateVisible && <Gate />}
+            {this.state.showPage && <React.Fragment>
+                <Navbar />
+                <div className="page-container">
+                    {<AboutMe />}
+                    {<EarlyYears />}
+                    {<EarlyYearsCont />}
+                    <MidYears />
+                    <CollegeYears />
+                    <CollegeYearsCont />
+                    <Jobs />
+                    <JobsCont />
+                    <JobsCont2 />
+                </div>
+            </React.Fragment>
+            }
         </React.Fragment>
     }
 };
