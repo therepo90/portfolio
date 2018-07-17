@@ -2,9 +2,9 @@
     position: absolute;
     z-index: 1;
     bottom: 100%;
-}
 
-.svg-container {
-    position: relative;
-    width: 100%;
+    &-container {
+        position: relative;
+        width: 100%;
+    }
 }

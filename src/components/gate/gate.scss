@@ -5,6 +5,7 @@
     left:0;
     width: 100vw;
     height: 100vh;
+    pointer-events: none;
 }
 
 .gate {
@@ -22,18 +23,19 @@
     animation-timing-function: ease;
     animation-fill-mode: forwards;
     animation-delay: 1s;
+        
+    &.left {
+        left:0;
+        animation-name: slide-left;
+    }
+
+    &.right {
+        right: 0;
+        animation-name: slide-right;
+        transform: scaleX(-1);
+    }
 }
 
-.gate.left {
-    left:0;
-    animation-name: slide-left;
-}
-
-.gate.right {
-    right: 0;
-    animation-name: slide-right;
-    transform: scaleX(-1);
-}
 
 @keyframes slide-left {
     from {
