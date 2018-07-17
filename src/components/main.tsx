@@ -15,7 +15,7 @@ import Navbar from "./navbar/navbar";
 
 export default class Main extends Component {
     state = {
-        gateVisible: false // enable me please...
+        gateVisible: true // enable me please...
     }
 
     componentDidMount() {
@@ -24,7 +24,7 @@ export default class Main extends Component {
             this.setState({
                 gateVisible: false,
             })
-        },7000);
+        },5000);
     }
     render() {
         return <React.Fragment>

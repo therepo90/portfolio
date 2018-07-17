@@ -7,24 +7,32 @@
     border: 2px solid white;
     border-radius: 5px;
     z-index: 10;
-    margin: 1rem 0.2rem;
+    margin: 0.6rem 0.2rem;
 }
 
 .navbar-links {
     display: flex;
     flex-direction: column;
+    padding: 0.3rem 0;
 }
 
 .navbar-links > a{
     padding: 0 0.2rem;
+    background-color: transparent;
 }
 
 .navbar-img {
     width: 2.5rem;
     height: 2.5rem;
+    transition: all 0.3s ease;
 }
 
 .navbar-img.filled {
     background: white;
     border-radius: 30px;
 }
+
+.navbar-img:hover {
+    background-color: darkgray;
+}
+

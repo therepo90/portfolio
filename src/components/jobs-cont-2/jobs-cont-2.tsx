@@ -34,7 +34,7 @@ export default class JobsCont2 extends Component {
                      <br />
                      <br />
                      <br />
-                     I've joined another sport booking company where currently I'm working on Angular6. Currently I'm also doing some React side-projects.
+                     I've joined another sport booking company where currently I'm using Angular6.
                 </p>
             </div>
         </div >

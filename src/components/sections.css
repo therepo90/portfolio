@@ -1,5 +1,4 @@
 .section {
-    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -7,6 +6,7 @@
     padding: 2rem 10rem;
     box-shadow: inset 0px 0 2rem 1rem rgba(0,0,0,0.8);
     min-height: 30rem;
+    width: 100%;
 }
 
 .dotted-container {
@@ -125,7 +125,7 @@
 }
 
 .image-near-text-csharp {
-    margin-top: 17rem;
+    margin-top: 19rem;
 }
 
 .image-near-text-java {

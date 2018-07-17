@@ -2,6 +2,7 @@
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
+    box-shadow: 0 0 10px 2px #e6f3ff;
 }
 
 .about-me-name {
