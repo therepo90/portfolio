@@ -81,15 +81,15 @@
         background-image: url('build/assets/backgrounds/bg12.jpg');
     }
 
-    &-main-description > p:first-letter,
-    &-description > p:first-letter {
-        font-size: 1.3rem;
+    &-main-description > p {
+        min-height: 6rem;
+        margin-top: 0.3rem;
     }
 
-    &-with-floating-image {
-        display: flex;
+    &-main-description > p:first-of-type:first-letter,
+    &-description > p:first-of-type:first-letter {
+        font-size: 1.3rem;
     }
-    
 }
 
 .bordered-container {
@@ -104,9 +104,10 @@
     &-screenshots {
         display: flex;
         flex-wrap: wrap;
-        margin: 0.2rem 0;
-        padding: 0.5rem 1rem;
+        padding: 1rem 1rem;
         border-radius: 20px;
+        clear: both;
+        justify-content: center;
     }
 
     &-screenshot {
@@ -114,46 +115,26 @@
         height: 6rem;
         margin: 0 0.3rem;
         border-radius: 5px;
+        box-shadow: 3px 3px 2px 2px black;
     }
     
     &-near-text {
         max-width: 6rem;
         height: 6rem;
         margin-right: 1.6rem;
+        margin-bottom: 0.4rem;
+        margin-top: 0.3rem;
+        float: left;
+        clear: both;
 
         &.filled {
             background: white;
             border-radius: 30px;
         }
     }
-
-        
-    &-near-text-unity {
-        margin-top: 19rem;
-    }
-
-    &-near-text-as {
-        margin-top: 2rem;
-    }
-
-    &-near-text-csharp {
-        margin-top: 19rem;
-    }
-
-    &-near-text-java {
-        margin-top: 2rem;
-    }
-
-    &-near-text-rr {
-        margin-top: 30rem;
-    }
-
-    &-near-text-ang-2 {
-        margin-top: 1rem;
-    }
 }
 
-.side-images {
-    display: flex;
-    flex-direction: column;
+.video-container {
+    width: 15rem;
+    height: 10rem;
 }

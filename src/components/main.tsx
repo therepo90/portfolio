@@ -15,7 +15,7 @@ import Navbar from "./navbar/navbar";
 
 export default class Main extends Component {
     state = {
-        gateVisible: true,  // enable me please...
+        gateVisible: false,  // enable me please...
         showPage: false,
     }
 

@@ -19,11 +19,8 @@ export default class Jobs extends Component {
             <div className="section-header">
                 Career 2014-2016
                 </div>
-            <div className="section-main-description section-with-floating-image">
-                <div className="side-images">
-                    <img src="build/assets/icons/angular2.png" className="image-near-text" />
-                    <img src="build/assets/icons/unity2.png" className="image-near-text image-near-text-unity filled" />
-                </div>
+            <div className="section-main-description">
+                <img src="build/assets/icons/angular2.png" className="image-near-text" />
                 <p>
                     I started working in italian company which was creating huge(200+ pages) financial reports. I was hired as back-end Java guy
                     and I started creating SQL query wrappers for Oracle database. We were lacking
@@ -47,14 +44,17 @@ export default class Jobs extends Component {
                  It was about creating web application for explicit solving public contests from Facebook/Twitter to prevent cheating. <br />
                     <a href="build/assets/magisterka_tsz.pdf">MSc work(polish&nbsp;version)</a>.
                    <br /> <br />
+                </p>
+                <img src="build/assets/icons/unity2.png" className="image-near-text filled no-margin-top" />
+                <p>
                     I've heard there is available free version of Unity game engine with huge collection of free assets available in its store,
                      so I've started discovering this inconceivable tool.
                      <br /> I wanted to create a game with a team so I joined project called 'Cursed Valley' found on&nbsp;
-                    <a href="www.gamedev.pl">www.gamedev.pl</a> . We've created a trailer: <br /><br />
-                    <div className="center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JorVn1ZvSmA" allowFullScreen></iframe>
-                    </div>
+                    <a href="www.gamedev.pl">www.gamedev.pl</a> . We've created a game, which trailer you can see below: <br /><br />
                 </p>
+                <div className="center video-container">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JorVn1ZvSmA" allowFullScreen></iframe>
+                </div>
             </div>
         </div >
     }

@@ -38,6 +38,7 @@ export default class MidYears extends Component {
                 <a href="https://warsztat.gd/user/lastseeds/projects">https://warsztat.gd/user/lastseeds/projects</a> and created a couple of games
                 with C++/SFML/SDL/OpenGL(funny thing is I was still writing code in polish). I remember creating programming solutions which later
                 I found to be ubiquitous programming patterns and rules of thumb. That was pretty fun.
+                </p>
                 <div className="image-screenshots">
                     {images.map((image, i) => <div key={i}>
                         <a href={image}>
@@ -45,7 +46,6 @@ export default class MidYears extends Component {
                         </a>
                     </div>)}
                 </div>
-            </p>
             </div>
         </div >
     }

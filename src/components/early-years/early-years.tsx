@@ -7,7 +7,7 @@ export default class EarlyYears extends Component {
             <div className="section-header">
                 Early years 2000-2003
                 </div>
-            <div className="section-main-description  section-with-floating-image">
+            <div className="section-main-description">
             <img src="build/assets/icons/html.png" className="image-near-text filled" />
                 <p>
                     I started developing at the age of ~10 around 2000. It was a Microsoft Word webpage for my Diablo clan. After week of doing it and being so

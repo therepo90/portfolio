@@ -21,27 +21,26 @@ export default class CollegeYears extends Component {
             <div className="section-header">
                 College 2009-2010
                 </div>
-            <div className="section-main-description section-with-floating-image">
-                <div className="side-images">
-                    <img src="build/assets/agh-2.png" className="image-near-text filled" />
-                    <img src="build/assets/icons/as2.png" className="image-near-text image-near-text-as" />
-                </div>
+            <div className="section-main-description">
+                <img src="build/assets/agh-2.png" className="image-near-text filled" />
                 <p>
-                    <span>After passing my mature exam I went to IT studies where I wasn't very happy hence when a college friend of mine
+                    After passing my mature exam I went to IT studies where I wasn't very happy hence when a college friend of mine
                         offered me a job as a Flash Game developer(Actionscript) I took it. It was a 7-man students company where I was paid ~2$/hour which after
                         2 weeks  increased to 4$ due to good results. We've created about ~30 games, here are some of them:
-                        <div className="image-screenshots">
-                            {images.map((image, i) => <div key={i}>
-                                <a href={image}>
-                                    <img src={image} className="image-screenshot" />
-                                </a>
-                            </div>)}
-                        </div>
-                        <br />
-                        Due to the fact I was working remotely and I was paid per hour it was no use for me to create games that
+                        </p>
+                <div className="image-screenshots">
+                    {images.map((image, i) => <div key={i}>
+                        <a href={image}>
+                            <img src={image} className="image-screenshot" />
+                        </a>
+                    </div>)}
+                </div>
+                <br />
+                <img src="build/assets/icons/as2.png" className="image-near-text" />
+                <p>
+                    Due to the fact I was working remotely and I was paid per hour it was no use for me to create games that
                     quickly as there was not much money from it. <br />
-                        Year after I quit the job and switched my major to Appliance IT on same department.
-                    </span>
+                    Year after I quit the job and switched my major to Appliance IT on same department.
                 </p>
             </div>
         </div >
