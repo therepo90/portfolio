@@ -8,13 +8,13 @@ export default class AboutMe extends Component {
                 About me
                 </div>
             <div className="section-content">
-                <div className="section-highlights dotted-container">
+                <div className="section-highlights bordered-container">
                     <div><img src="build/assets/me.jpg" className="about-me-img" /></div>
                     <span className="about-me-name">Tomasz Szepczyński<br />-Software Developer<br /> <span className="about-me-bio">Born on 1990 in Cracow, Poland</span>
                     <br />
                     <span className="about-me-bio"><a href="mailto: tomasz.szepczynski@gmail.com">tomasz.szepczynski@gmail.com</a></span></span>
                 </div>
-                <div className="section-description dotted-container">
+                <div className="section-description bordered-container">
                     <p>
                         Hello there, <br />
                         I'm a passionate software developer, who likes to mess around with various technologies:

@@ -18,18 +18,21 @@ module.exports = {
             loader: 'raw-loader'
         },
         {
-            test: /\.css$/,
-            loader: 'raw-loader'
-        },
-        {
             test: /\.tsx?$/,
             loader: "ts-loader",
             exclude: /node_modules/
-          }
-    ],
+        },
+        {
+            test: /\.scss$/,
+            use: [
+                "raw-loader",
+                "sass-loader"
+            ]
+        },
+        ],
     },
     resolve: {
-        extensions: [ '.tsx', '.ts', '.js' ]
+        extensions: ['.tsx', '.ts', '.js']
     },
     externals: {
         "react": "React",

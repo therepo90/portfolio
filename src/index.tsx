@@ -2,12 +2,12 @@ import * as React from "react";
 import Main from './components/main';
 import * as ReactDOM from 'react-dom';
 const styles: string[] = [
-    require('./base.css'),
-    require('./components/sections.css'),
-    require('./components/navbar/navbar.css'),
-    require('./components/about-me/about-me.css'),
-    require('./components/gate/gate.css'),
-    require('./components/cut/cut.css')
+    require('./base.scss'),
+    require('./components/sections.scss'),
+    require('./components/navbar/navbar.scss'),
+    require('./components/about-me/about-me.scss'),
+    require('./components/gate/gate.scss'),
+    require('./components/cut/cut.scss')
 ];
 
 const stylesEl = document.createElement('style');
