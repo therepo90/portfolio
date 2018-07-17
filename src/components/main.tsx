@@ -11,9 +11,21 @@ import CollegeYearsCont from "./college-years-cont/college-years-cont";
 import Jobs from "./jobs/jobs";
 
 export default class Main extends Component {
+    state = {
+        gateVisible: false // enable me please...
+    }
+
+    componentDidMount() {
+        setTimeout(() => {
+            console.log('Gate must fall.');
+            this.setState({
+                gateVisible: false,
+            })
+        },7000);
+    }
     render() {
         return <React.Fragment>
-            { /* <Gate />*/ } 
+            {this.state.gateVisible && <Gate /> } 
             <div className="page-container">
                 {<AboutMe />}
                 {<EarlyYears />}

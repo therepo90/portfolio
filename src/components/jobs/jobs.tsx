@@ -34,7 +34,7 @@ export default class Jobs extends Component {
                  <br />
                  I was the main front-end creator of <a href="https://application.skyminder.com">https://application.skyminder.com</a> - web application 
                  that serves financial reports for all over the world companies(even on small islands you've never heard of). It was web/pdf/txt.
-                 AngularJS was incredibly slow for this task due to "ng-for" and digest system - generating complex table was taking 60seconds, so I 
+                 AngularJS had super app-features, declarative UI, but was incredibly slow for this task due to "ng-for" and digest system - generating complex table was taking 60seconds, so I 
                  ended up in creating my own performant engine for generating reports that did it in 200ms. Also I've created txt 
                  terminal-like generator for 2D tables. App functionalities contained multiple languages(e.g. chinese, german), SSO 
                  authentication system, RWD, IE9+ support.

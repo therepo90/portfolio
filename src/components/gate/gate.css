@@ -41,6 +41,7 @@
     }
     to {
         left: -50vw;
+        display: none;
     }
 }
 
@@ -50,6 +51,7 @@
     }
     to {
         right: -50vw;
+        
     }
 }
 
