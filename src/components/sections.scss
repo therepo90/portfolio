@@ -7,7 +7,7 @@
     box-shadow: inset 0px 0 2rem 1rem rgba(0,0,0,0.8);
     min-height: 30rem;
     width: 100%;
-
+    
     &-highlights {
         display: flex;
         flex-direction: column;
@@ -34,6 +34,7 @@
         display: inline-block;
         font-size: 1.5rem;
         border-bottom: 2px solid white;
+        text-shadow: 1px 1px black;
     }
         
     &-main-description {
@@ -50,19 +51,19 @@
     }
 
     &.early-years {
-        background-image: url('build/assets/backgrounds/bg1.jpg');
-    }
-
-    &.early-years-cont {
         background-image: url('build/assets/backgrounds/bg5.jpg');
     }
 
+    &.early-years-cont {
+        background-image: url('build/assets/backgrounds/bg6.jpg');
+    }
+
     &.mid-years {
-        background-image: url('build/assets/backgrounds/bg19.jpg');
+        background-image: url('build/assets/backgrounds/bg7.jpg');
     }
 
     &.college {
-        background-image: url('build/assets/backgrounds/bg17.png');
+        background-image: url('build/assets/backgrounds/bg22.jpg');
     }
 
     &.college-cont {
@@ -78,7 +79,7 @@
     }
 
     &.jobs-cont-2 {
-        background-image: url('build/assets/backgrounds/bg12.jpg');
+        background-image: url('build/assets/backgrounds/bg14.jpg');
     }
 
     &-main-description > p {
@@ -135,6 +136,7 @@
 }
 
 .video-container {
-    width: 15rem;
+    width: 25rem;
+    max-width: 50%;
     height: 10rem;
 }
