@@ -27,7 +27,7 @@ export default class Main extends Component {
     loadingIndicator = <div>Loading ...</div>;
 
     state = {
-        gateVisible: true,  // enable me please...
+        gateVisible: false,  // enable me please...
     }
 
     render() {
