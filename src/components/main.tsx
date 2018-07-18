@@ -23,15 +23,23 @@ const images = [
     'build/assets/backgrounds/bg1.jpg',
 ];
 
+const showGate = true; // configuration param
+
 export default class Main extends Component {
     loadingIndicator = <div>Loading ...</div>;
 
     state = {
-        gateVisible: false,  // enable me please...
+        gateVisible: showGate,  // enable me please...
+    }
+
+    onImagesLoaded = () => {
+        this.setState({
+            gateVisible: showGate,
+        });
     }
 
     render() {
-        return <PreloadImages images={images} loadingIndicator={this.loadingIndicator} >
+        return <PreloadImages images={images} loadingIndicator={this.loadingIndicator} mount={true} loaded={this.onImagesLoaded}>
             <React.Fragment>
                 {this.state.gateVisible && <Gate />}
                 {<React.Fragment>

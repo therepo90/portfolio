@@ -5,6 +5,8 @@ export interface PreloadImagesProps {
     images: string[];
     loadingIndicator: React.ReactNode;
     children: React.ReactNode;
+    mount: boolean;
+    loaded: () => any;
 }
 
 // caches only images that are passed for the first time
@@ -38,18 +40,22 @@ export default class PreloadImages extends Component<PreloadImagesProps> {
     onLoadedImages = () => {
         this.setState({
             showChildren: true,
-        })
+        });
+        this.props.loaded && this.props.loaded();
     }
 
     render() {
-        const { images, loadingIndicator, children } = this.props;
+        const { images, loadingIndicator, children, mount } = this.props;
         const { showChildren } = this.state;
         return <React.Fragment>
             {!showChildren && loadingIndicator}
             {!this.renderedImagesFirstTime && !showChildren && images.map(
                 (src, i) => <img key={i} src={src} onLoad={this.onLoadImage(src)} onError={this.onLoadImage(src)} style={{ display: 'none' }} />
             )}
-            {showChildren && children}
+            {!mount && showChildren && children}
+            {mount && <div style={showChildren ? { display: 'initial' } : { display: 'none' }}>
+                {children}
+            </div>}
 
         </React.Fragment>
     }
