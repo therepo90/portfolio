@@ -27,13 +27,9 @@ export default class MidYears extends Component {
                 I've bought two C++ books 'Thinking in C++', read it and done all exercices. Also it was about time for my mature exam and I
                  was doing a lot of math school tasks and I wanted to boost up my calculation work. I remember creating
                   my first handy C++ app that was helpful for me:  it was "Horner-schema solver".
-                 <br />I remember one day dad gave me a book 'Śladami Pitagorasa' and I
-                  went in love with math <img src="build/assets/icons/heart.png" className="icon" />. Everything seemed so pretty and I found math appliance 
-                  in real world and saw its beauty.
-                
                   <br />
                 <br />
-                I've returned to game development, joined&nbsp;
+                I've returned to game development,  join warsztat&nbsp;
                 <a href="https://warsztat.gd/user/lastseeds/projects"><img src="build/assets/icons/warsztat-icon.jpg" className="icon" />
                 https://warsztat.gd/user/lastseeds/projects</a> and created a couple of games
                 with C++/SFML/SDL/OpenGL(funny thing is I was still writing code in polish). I remember creating programming solutions which later

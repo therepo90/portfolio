@@ -17,8 +17,7 @@ export default class EarlyYearsCont extends Component {
             <div className="section-main-description">
                 <img src="build/assets/icons/vb.png" className="image-near-text filled" />
                 <p>
-                    So I needed to know more about creating games and had neither source of knowledge nor money to
-                    get one. So I asked my dad to buy me a book Visual Basic 6 and I went full cave-programming. During 2004/2005 I've created a bunch of games:
+                    So I needed to know more about creating hence when I got Visual Basic 6 book I went full cave-programming. During 2004/2005 I've created a bunch of games:
                     </p>
                 <div className="image-screenshots">
                     {images.map((image, i) => <div key={i}>
