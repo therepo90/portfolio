@@ -29,9 +29,9 @@ export default class MidYears extends Component {
                   my first handy C++ app that was helpful for me:  it was "Horner-schema solver".
                   <br />
                 <br />
-                I've returned to game development,  join warsztat&nbsp;
+                I've returned to game development,  join warsztat:&nbsp;
                 <a href="https://warsztat.gd/user/lastseeds/projects"><img src="build/assets/icons/warsztat-icon.jpg" className="icon" />
-                https://warsztat.gd/user/lastseeds/projects</a> and created a couple of games
+                My account</a> and created a couple of games
                 with C++/SFML/SDL/OpenGL(funny thing is I was still writing code in polish). I remember creating programming solutions which later
                 I found to be ubiquitous programming patterns and rules of thumb. That was pretty fun.
                 </p>

@@ -23,7 +23,7 @@ const images = [
     'build/assets/backgrounds/bg1.jpg',
 ];
 
-const showGate = false; // configuration param
+const showGate = true; // configuration param
 
 export default class Main extends Component {
     loadingIndicator = <div>Loading ...</div>;

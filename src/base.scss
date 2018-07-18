@@ -18,13 +18,15 @@ html, body {
 }
 
 a {
-    word-break: break-all;
-
+    transition: color 0.3s;
+    
     &:visited, 
-    &:hover,
     &:active,
     &:link {
         color: white;
+    }
+    &:hover {
+        color: lightgray;
     }
 }
 
