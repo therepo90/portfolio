@@ -1,3 +1,6 @@
+$gateMovementDuration: 4s;
+$eyesGlowingTime: 1s;
+
 .gate-container {
     position: fixed;
     z-index: 1000;
@@ -18,41 +21,40 @@
     background-image: url('build/assets/gate/gate10.jpg');
     box-shadow: inset 0px 0 5rem 4rem rgba(0,0,0,0.8);
     top:0;
-    animation-duration: 4s;
+    animation-duration: $gateMovementDuration;
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: $eyesGlowingTime;
         
     &.left {
-        left:0;
+        transform: translateX(0);
         animation-name: slide-left;
     }
 
     &.right {
-        right: 0;
+        transform: translateX(50vw) scaleX(-1);
         animation-name: slide-right;
-        transform: scaleX(-1);
     }
+    will-change: transform;
 }
 
 
 @keyframes slide-left {
     from {
-        left: 0;
+        transform: translateX(0);
     }
     to {
-        left: -50vw;
-        display: none;
+        transform: translateX(-50vw);
     }
 }
 
 @keyframes slide-right {
     from {
-        right: 0;
+        transform: translateX(50vw) scaleX(-1);
     }
     to {
-        right: -50vw;
+        transform: translateX(100vw) scaleX(-1);
         
     }
 }
@@ -74,7 +76,7 @@
     z-index: 2;
     right: 0;   
     animation-name: glow;
-    animation-duration: 5s;
+    animation-duration: $eyesGlowingTime + $gateMovementDuration;
     animation-timing-function: ease;
     animation-delay: 0.15s;
     animation-fill-mode: forwards;
@@ -113,7 +115,7 @@
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: $eyesGlowingTime;
 }
 
 @keyframes shadow-anim {
