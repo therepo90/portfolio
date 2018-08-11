@@ -9,6 +9,7 @@ export default class Navbar extends Component {
                 <a href="https://www.youtube.com/channel/UCGaMIyiWInKQV6CeKPTePyA"><img src="build/assets/icons/yt2.png" className="navbar-img filled" /></a>
                 <a href="https://github.com/therepo90"><img src="build/assets/icons/github.png" className="navbar-img filled" /></a>
                 <a href="mailto: tomasz.szepczynski@gmail.com"><img src="build/assets/icons/email.png" className="navbar-img filled"/></a>
+                <a href="https://www.linkedin.com/in/tomasz-sz1000000/"><img src="build/assets/icons/linkedin.png" className="navbar-img filled" style={{padding: '0.25rem'}} /></a>
             </div>
         </div>
     }
