@@ -2,14 +2,14 @@ import * as React from "react";
 import { Component } from "react";
 
 const images: any[] = [
-    'build/assets/games/alggen.jpg',
-    'build/assets/tree3000.png',
-    'build/assets/games/competence.jpg',
-    'build/assets/games/droidz.png',
-    'build/assets/games/logi.png',
-    'build/assets/games/tanki.jpg',
-    'build/assets/games/webgl.png',
-    'build/assets/games/wp7.jpg',
+    'assets/games/alggen.jpg',
+    'assets/tree3000.png',
+    'assets/games/competence.jpg',
+    'assets/games/droidz.png',
+    'assets/games/logi.png',
+    'assets/games/tanki.jpg',
+    'assets/games/webgl.png',
+    'assets/games/wp7.jpg',
 ];
 
 
@@ -21,15 +21,15 @@ export default class CollegeYearsCont extends Component {
                 College - 2010-2013
                 </div>
             <div className="section-main-description">
-                <img src="build/assets/agh-2.png" className="image-near-text filled" />
+                <img src="assets/agh-2.png" className="image-near-text filled" />
                 <p>
-                    First 3 years of college were just awesome. A lot of cool people and interesting subjects (calculus & matrixes <img src="build/assets/icons/heart.png" className="icon" />).
+                    First 3 years of college were just awesome. A lot of cool people and interesting subjects (calculus & matrixes <img src="assets/icons/heart.png" className="icon" />).
                    <br /> I participated in 2 internships, one of them included coding-dojos and  refactor workshops where using mouse was forbidden - only key
                             shortcuts so I improved my IDE experience a lot.
                    <br />
                     <br />
                 </p>
-                <img src="build/assets/icons/java2.png" className="image-near-text filled" />
+                <img src="assets/icons/java2.png" className="image-near-text filled" />
                 <p>
                     In the end I was offered a job at telcom company where I spent a year with incredibly cool people.
                     We've created application for managing employees competencies
@@ -50,7 +50,7 @@ export default class CollegeYearsCont extends Component {
                         </a>
                     </div>)}
                 </div>
-                <img src="build/assets/icons/csharp.png" className="image-near-text filled" />
+                <img src="assets/icons/csharp.png" className="image-near-text filled" />
                 <p>
                     The last one is <strong>'SpazzyBall'</strong> which reached <strong>10 000 downloads</strong> on Windows Mobile 7 in a year.
                     <br />

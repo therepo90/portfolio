@@ -2,11 +2,11 @@ import * as React from "react";
 import { Component } from "react";
 
 const images: any[] = [
-    'build/assets/games/cv1.jpg',
-    'build/assets/games/cv2.jpg',
-    'build/assets/games/cv3.jpg',
-    'build/assets/games/cv4.jpg',
-    'build/assets/games/cv5.jpg',
+    'assets/games/cv1.jpg',
+    'assets/games/cv2.jpg',
+    'assets/games/cv3.jpg',
+    'assets/games/cv4.jpg',
+    'assets/games/cv5.jpg',
 ];
 
 
@@ -18,7 +18,7 @@ export default class JobsCont extends Component {
                 Career 2016-2017
                 </div>
             <div className="section-main-description">
-                <img src="build/assets/icons/unity2.png" className="image-near-text filled" />
+                <img src="assets/icons/unity2.png" className="image-near-text filled" />
                 <p>
                     We've traveled with our game to a game conference: "Let's play Częstochowa" after which we got invited to "Good Game Expo Warsaw".
                 After the GGE we created our fanpage: <a href="https://www.facebook.com/CursedValley/">Cursed Valley</a> and
@@ -41,7 +41,7 @@ export default class JobsCont extends Component {
                 </div>
                 <br />
 
-                <img src="build/assets/icons/react-redux.png" className="image-near-text filled" />
+                <img src="assets/icons/react-redux.png" className="image-near-text filled" />
                 <p>
                     I joined sport booking company and switched to React & Redux stack. After 2 years of ng I wanted to see what's the fuss about and who Abramov is.
                     I immediately loved JSX, yarn, <span className="stroke">webpack</span>, ES7, Express, Jest, unidirectional app flow, single store,

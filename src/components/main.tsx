@@ -15,12 +15,12 @@ import Navbar from "./navbar/navbar";
 import PreloadImages from "./preload-images/preload-images";
 
 const images = [
-    'build/assets/gate/gate10.jpg',
-    'build/assets/gate/knocker-left.png',
-    'build/assets/gate/eye-left-2.png',
-    'build/assets/backgrounds/bg4.jpg',
-    'build/assets/me.jpg',
-    'build/assets/backgrounds/bg1.jpg',
+    'assets/gate/gate10.jpg',
+    'assets/gate/knocker-left.png',
+    'assets/gate/eye-left-2.png',
+    'assets/backgrounds/bg4.jpg',
+    'assets/me.jpg',
+    'assets/backgrounds/bg1.jpg',
 ];
 
 const showGate = true; // configuration param
