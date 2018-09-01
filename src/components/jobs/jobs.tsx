@@ -2,13 +2,13 @@ import * as React from "react";
 import { Component } from "react";
 
 const images: any[] = [
-    'assets/games/alggen.jpg',
-    'assets/games/competence.jpg',
-    'assets/games/droidz.png',
-    'assets/games/logi.png',
-    'assets/games/tanki.jpg',
-    'assets/games/webgl.png',
-    'assets/games/wp7.jpg',
+    '/assets/games/alggen.jpg',
+    '/assets/games/competence.jpg',
+    '/assets/games/droidz.png',
+    '/assets/games/logi.png',
+    '/assets/games/tanki.jpg',
+    '/assets/games/webgl.png',
+    '/assets/games/wp7.jpg',
 ];
 
 
@@ -20,7 +20,7 @@ export default class Jobs extends Component {
                 Career 2014-2016
                 </div>
             <div className="section-main-description">
-                <img src="assets/icons/angular2.png" className="image-near-text" />
+                <img src="/assets/icons/angular2.png" className="image-near-text" />
                 <p>
                     I started working in italian company which was creating huge(200+ pages) financial reports. I was hired as back-end Java guy
                     and I started creating SQL query wrappers for Oracle database. We were lacking
@@ -42,10 +42,10 @@ export default class Jobs extends Component {
                     <br />
                     Also I've reached my Master of Science degrees.
                  It was about creating web application for explicit solving public contests from Facebook/Twitter to prevent cheating. <br />
-                    <a href="assets/magisterka_tsz.pdf">MSc work(polish&nbsp;version)</a>.
+                    <a href="/assets/magisterka_tsz.pdf">MSc work(polish&nbsp;version)</a>.
                    <br /> <br />
                 </p>
-                <img src="assets/icons/unity2.png" className="image-near-text filled no-margin-top" />
+                <img src="/assets/icons/unity2.png" className="image-near-text filled no-margin-top" />
                 <p>
                     I've heard there is available free version of Unity game engine with huge collection of free assets available in its store,
                      so I've started discovering this inconceivable tool.

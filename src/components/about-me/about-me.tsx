@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Component } from "react";
+import './about-me.scss';
 
 export default class AboutMe extends Component {
     render() {
@@ -9,7 +10,7 @@ export default class AboutMe extends Component {
                 </div>
             <div className="section-content">
                 <div className="section-highlights bordered-container">
-                    <div><img src="assets/me.jpg" className="about-me-img" /></div>
+                    <div><img src="/assets/me.jpg" className="about-me-img" /></div>
                     <span className="about-me-name">Tomasz Szepczyński<br />-Software Developer<br /> <span className="about-me-bio">Born on 1990 in Cracow, Poland</span>
                         <br />
                         <span className="about-me-bio"><a href="mailto: tomasz.szepczynski@gmail.com">tomasz.szepczynski@gmail.com</a></span></span>

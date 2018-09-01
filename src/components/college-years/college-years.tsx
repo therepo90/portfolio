@@ -1,16 +1,16 @@
 import * as React from "react";
 import { Component } from "react";
 
-const images = ['assets/games/flash1.jpg',
-    'assets/games/flash2.jpg',
-    'assets/games/flash3.jpg',
-    'assets/games/flash4.jpg',
-    'assets/games/flash5.jpg',
-    'assets/games/flash6.jpg',
-    'assets/games/flash7.jpg',
-    'assets/games/flash8.jpg',
-    'assets/games/flash9.jpg',
-    'assets/games/flash10.jpg'
+const images = ['/assets/games/flash1.jpg',
+    '/assets/games/flash2.jpg',
+    '/assets/games/flash3.jpg',
+    '/assets/games/flash4.jpg',
+    '/assets/games/flash5.jpg',
+    '/assets/games/flash6.jpg',
+    '/assets/games/flash7.jpg',
+    '/assets/games/flash8.jpg',
+    '/assets/games/flash9.jpg',
+    '/assets/games/flash10.jpg'
 ]
 
 
@@ -22,7 +22,7 @@ export default class CollegeYears extends Component {
                 College 2009-2010
                 </div>
             <div className="section-main-description">
-                <img src="assets/agh-2.png" className="image-near-text filled" />
+                <img src="/assets/agh-2.png" className="image-near-text filled" />
                 <p>
                     After passing my mature exam I went to IT studies where I wasn't very happy hence when a college friend of mine
                         offered me a job as a Flash Game developer(Actionscript) I took it. It was a 7-man students company where I was paid ~2$/hour which after
@@ -36,7 +36,7 @@ export default class CollegeYears extends Component {
                     </div>)}
                 </div>
                 <br />
-                <img src="assets/icons/as2.png" className="image-near-text" />
+                <img src="/assets/icons/as2.png" className="image-near-text" />
                 <p>
                     Due to the fact I was working remotely and I was paid per hour it was no use for me to create games that
                     quickly as there was not much money from it. <br />

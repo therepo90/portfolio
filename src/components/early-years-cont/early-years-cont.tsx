@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Component } from "react";
 
-const images = ['assets/games/game-calc.PNG', 'assets/games/game-delforce.PNG', 'assets/games/game-gra.PNG', 'assets/games/game-klawisz.PNG',
-    'assets/games/game-komorka.PNG',
-    'assets/games/game-konkurs.PNG',
-    'assets/games/game-strzelnica.PNG',
-    'assets/games/game-wezyk.PNG'];
+const images = ['/assets/games/game-calc.PNG', '/assets/games/game-delforce.PNG', '/assets/games/game-gra.PNG', '/assets/games/game-klawisz.PNG',
+    '/assets/games/game-komorka.PNG',
+    '/assets/games/game-konkurs.PNG',
+    '/assets/games/game-strzelnica.PNG',
+    '/assets/games/game-wezyk.PNG'];
 
 export default class EarlyYearsCont extends Component {
 
@@ -15,7 +15,7 @@ export default class EarlyYearsCont extends Component {
                 Early years 2003-2006
                 </div>
             <div className="section-main-description">
-                <img src="assets/icons/vb.png" className="image-near-text filled" />
+                <img src="/assets/icons/vb.png" className="image-near-text filled" />
                 <p>
                     So I needed to know more about creating hence when I got Visual Basic 6 book I went full cave-programming. During 2004/2005 I've created a bunch of games:
                     </p>

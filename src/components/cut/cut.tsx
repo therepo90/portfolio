@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Component } from "react";
+import './cut.scss';
 
 export default class Cut extends Component {
     render() {

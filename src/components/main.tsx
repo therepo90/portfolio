@@ -13,14 +13,15 @@ import JobsCont from "./jobs-cont/jobs-cont";
 import JobsCont2 from "./jobs-cont-2/jobs-cont-2";
 import Navbar from "./navbar/navbar";
 import PreloadImages from "./preload-images/preload-images";
+import './main.scss';
 
 const images = [
-    'assets/gate/gate10.jpg',
-    'assets/gate/knocker-left.png',
-    'assets/gate/eye-left-2.png',
-    'assets/backgrounds/bg4.jpg',
-    'assets/me.jpg',
-    'assets/backgrounds/bg1.jpg',
+    '/assets/gate/gate10.jpg',
+    '/assets/gate/knocker-left.png',
+    '/assets/gate/eye-left-2.png',
+    '/assets/backgrounds/bg4.jpg',
+    '/assets/me.jpg',
+    '/assets/backgrounds/bg1.jpg',
 ];
 
 const showGate = true; // configuration param

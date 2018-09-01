@@ -8,7 +8,7 @@ export default class EarlyYears extends Component {
                 Early years 2000-2003
                 </div>
             <div className="section-main-description">
-            <img src="assets/icons/html.png" className="image-near-text filled" />
+            <img src="/assets/icons/html.png" className="image-near-text filled" />
                 <p>
                     I started developing at the age of ~10 around 2000. It was a Microsoft Word webpage for my Diablo clan. After week of doing it and being so
                     proud of my first creation(marquees, pink and purple colors all over the place) my friends told me it's a crap and they would do much
