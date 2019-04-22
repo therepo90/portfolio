@@ -22,8 +22,7 @@ export default class JobsCont2 extends Component {
 
                 <p>
                     I've started doing some hobby side-projects in Unity regarding games and computer graphics.
-                     I've even created&nbsp;
-                      <a target="_blank" href="https://www.youtube.com/channel/UCGaMIyiWInKQV6CeKPTePyA"><img src="/assets/icons/yt1.png" className="icon" />Youtube channel</a>&nbsp;
+                     I've even created<a target="_blank" href="https://www.youtube.com/channel/UCGaMIyiWInKQV6CeKPTePyA"><img src="/assets/icons/yt1.png" className="icon" />Youtube channel</a>&nbsp;
               where I publish all computer graphics thing I do. Also I've started
                      developing assets for Unity Asset Store: <a target="_blank" href="https://assetstore.unity.com/publishers/25578"> My&nbsp;publisher&nbsp;account</a>.
                     </p>
