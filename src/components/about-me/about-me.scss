@@ -16,3 +16,18 @@
         font-size: 0.6rem;
     }    
 }
+
+.section-content.about-content {
+    justify-content: center;
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.section-description.about-description {
+    @media screen and (max-width: 1024px) {
+        margin-top: 2rem;
+    }
+}
