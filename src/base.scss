@@ -1,11 +1,12 @@
-html, body {
-    font-size: 20px;
+html {
+    font-size: 40px;
     font-family: monospace;
     margin: 0;
     padding: 0;
+    -webkit-text-size-adjust: none;
 
-    @media screen and (max-width: 1024px) {
-        font-size: 24px;
+    @media screen and (min-width: 1024px) {
+        font-size: 20px;
     }
     @media screen and (min-width: 2000px) {
             font-size: 35px;
@@ -14,6 +15,11 @@ html, body {
     @media screen and (min-width: 3000px) {
             font-size: 45px;
     }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 * {

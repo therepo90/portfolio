@@ -32,7 +32,7 @@ export default class Jobs extends Component {
                     I remembered to create symlink for my `node_modules` directory not to spend whole day waiting for `npm install` to finish.
                  <br />
                     <br />
-                    I was the main front-end creator of <a href="https://application.skyminder.com">https://application.skyminder.com</a> - web application
+                    I was the main front-end creator of <a target="_blank" href="https://application.skyminder.com">https://application.skyminder.com</a> - web application
                     that serves financial reports for all over the world companies(even on small islands you've never heard of). It was web/pdf/txt.
                     AngularJS had super features, declarative UI, but was incredibly slow for this task due to "ng-for" and digest system - generating complex table was taking 60seconds, so I
                     ended up in creating my own performant engine for generating reports that did it in 200ms. Also I've created txt
@@ -42,7 +42,7 @@ export default class Jobs extends Component {
                     <br />
                     Also I've reached my Master of Science degrees.
                  It was about creating web application for explicit solving public contests from Facebook/Twitter to prevent cheating. <br />
-                    <a href="/assets/magisterka_tsz.pdf">MSc work(polish&nbsp;version)</a>.
+                    <a target="_blank" href="/assets/magisterka_tsz.pdf">MSc work(polish&nbsp;version)</a>.
                    <br /> <br />
                 </p>
                 <img src="/assets/icons/unity2.png" className="image-near-text filled no-margin-top" />
@@ -50,7 +50,7 @@ export default class Jobs extends Component {
                     I've heard there is available free version of Unity game engine with huge collection of free assets available in its store,
                      so I've started discovering this inconceivable tool.
                      <br /> I wanted to create a game with a team so I joined project called 'Cursed Valley' found on&nbsp;
-                    <a href="www.gamedev.pl">www.gamedev.pl</a> . We've created a game, which trailer you can see below: <br /><br />
+                    <a target="_blank" href="www.gamedev.pl">www.gamedev.pl</a> . We've created a game, which trailer you can see below: <br /><br />
                 </p>
                 <div className="center video-container">
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JorVn1ZvSmA" allowFullScreen></iframe>

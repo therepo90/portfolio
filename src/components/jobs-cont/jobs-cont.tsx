@@ -21,7 +21,7 @@ export default class JobsCont extends Component {
                 <img src="/assets/icons/unity2.png" className="image-near-text filled" />
                 <p>
                     We've traveled with our game to a game conference: "Let's play Częstochowa" after which we got invited to "Good Game Expo Warsaw".
-                After the GGE we created our fanpage: <a href="https://www.facebook.com/CursedValley/">Cursed Valley</a> and
+                After the GGE we created our fanpage: <a target="_blank" href="https://www.facebook.com/CursedValley/">Cursed Valley</a> and
                         after some investors talks we decided to transform our game to 2D: <br /><br />
                 </p>
                 <div className="center video-container">
@@ -34,7 +34,7 @@ export default class JobsCont extends Component {
                 </p>
                 <div className="image-screenshots">
                     {images.map((image, i) => <div key={i}>
-                        <a href={image}>
+                        <a target="_blank" href={image}>
                             <img src={image} className="image-screenshot" />
                         </a>
                     </div>)}
