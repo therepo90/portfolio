@@ -7,7 +7,12 @@
     box-shadow: inset 0px 0 2rem 1rem rgba(0,0,0,0.8);
     min-height: 30rem;
     width: 100%;
-    
+
+    @media screen and (max-width: 1024px) {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
     &-highlights {
         display: flex;
         flex-direction: column;
@@ -145,4 +150,17 @@
     width: 25rem;
     max-width: 50%;
     height: 10rem;
+
+    @media screen and (max-width: 1024px) {
+        max-width: unset;
+        width: 100%
+    }
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }

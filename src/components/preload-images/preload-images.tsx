@@ -24,7 +24,7 @@ export default class PreloadImages extends Component<PreloadImagesProps> {
         this.imagesLoaded++;
         if (this.imagesLoaded >= images.length) {
             // console.log('All loaded', images);
-            setTimeout(() => this.onLoadedImages(), 0);
+            setTimeout(() => this.onLoadedImages(), 500);
         }
     }
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Component } from "react";
+import {Component} from "react";
 import AboutMe from "./about-me/about-me";
 import EarlyYears from "./early-years/early-years";
 import EarlyYearsCont from "./early-years-cont/early-years-cont";
@@ -24,37 +24,40 @@ const images = [
     '/assets/backgrounds/bg1.jpg',
 ];
 
-const showGate = true; // configuration param
+const GATE_ENABLED = true; // configuration param
 
 export default class Main extends Component {
     loadingIndicator = <div></div>;
 
     state = {
-        gateVisible: showGate,  // enable me please...
+        gateVisible: false,
     }
 
     onImagesLoaded = () => {
         this.setState({
-            gateVisible: showGate,
-        });
+            gateVisible: GATE_ENABLED,
+        })
     }
 
     render() {
-        return <PreloadImages images={images} loadingIndicator={this.loadingIndicator} mount={true} loaded={this.onImagesLoaded}>
+        return <PreloadImages images={images}
+                              loadingIndicator={this.loadingIndicator}
+                              mount={true}
+                              loaded={this.onImagesLoaded}>
             <React.Fragment>
-                {this.state.gateVisible && <Gate />}
+                {this.state.gateVisible && <Gate/>}
                 {<React.Fragment>
-                    <Navbar />
+                    <Navbar/>
                     <div className="page-container">
-                        {<AboutMe />}
-                        {<EarlyYears />}
-                        {<EarlyYearsCont />}
-                        <MidYears />
-                        <CollegeYears />
-                        <CollegeYearsCont />
-                        <Jobs />
-                        <JobsCont />
-                        <JobsCont2 />
+                        {<AboutMe/>}
+                        <JobsCont2/>
+                        <JobsCont/>
+                        <Jobs/>
+                        <CollegeYearsCont/>
+                        <CollegeYears/>
+                        <MidYears/>
+                        {<EarlyYearsCont/>}
+                        {<EarlyYears/>}
                     </div>
                 </React.Fragment>
                 }

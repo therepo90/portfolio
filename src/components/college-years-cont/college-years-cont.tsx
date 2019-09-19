@@ -45,7 +45,7 @@ export default class CollegeYearsCont extends Component {
                         </p>
                 <div className="image-screenshots">
                     {images.map((image, i) => <div key={i}>
-                        <a href={image}>
+                        <a href={image} target="_blank">
                             <img src={image} className="image-screenshot" />
                         </a>
                     </div>)}

@@ -20,7 +20,7 @@ export default class MidYears extends Component {
             <img src="/assets/icons/cpp.png" className="image-near-text" />
             <p>
                 So after going to middle-school I switched to creating bots for MMOs like Silkroad/Knight online and I really wanted to learn creating private servers
-                and bots. Around 2007 I found excellent Windows API <a href="http://xion.org.pl/">http://xion.org.pl/</a> tutorial, but it needed C++ knowledge.
+                and bots. Around 2007 I found excellent Windows API <a target="_blank" href="http://xion.org.pl/">http://xion.org.pl/</a> tutorial, but it needed C++ knowledge.
 
                  Fortunately there was also full pdf containing C++ tutorial so I've read it and done all exercises including games like tic-tac-toe.
                  <br /> C++ was so awesome I wanted to learn more so
@@ -30,14 +30,14 @@ export default class MidYears extends Component {
                   <br />
                 <br />
                 I've returned to game development,  join warsztat:&nbsp;
-                <a href="https://warsztat.gd/user/lastseeds/projects"><img src="/assets/icons/warsztat-icon.jpg" className="icon" />
+                <a target="_blank" href="https://warsztat.gd/user/lastseeds/projects"><img src="/assets/icons/warsztat-icon.jpg" className="icon" />
                 My account</a> and created a couple of games
                 with C++/SFML/SDL/OpenGL(funny thing is I was still writing code in polish). I remember creating programming solutions which later
                 I found to be ubiquitous programming patterns and rules of thumb. That was pretty fun.
                 </p>
                 <div className="image-screenshots">
                     {images.map((image, i) => <div key={i}>
-                        <a href={image}>
+                        <a target="_blank" href={image}>
                             <img src={image} className="image-screenshot" />
                         </a>
                     </div>)}
