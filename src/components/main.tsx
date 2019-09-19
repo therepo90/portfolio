@@ -27,7 +27,7 @@ const images = [
 const showGate = true; // configuration param
 
 export default class Main extends Component {
-    loadingIndicator = <div>Loading ...</div>;
+    loadingIndicator = <div></div>;
 
     state = {
         gateVisible: showGate,  // enable me please...
