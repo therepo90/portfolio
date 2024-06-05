@@ -25,7 +25,7 @@ export default class JobsCont4 extends Component {
                     gather information
                     for private offers so you could look them up later if they vanish.
 
-                    I got interested(or forced) in financial world. Started reading looots of books on the topic and
+                    I got interested in financial world(or rather forced as I've never been into money thing). Started reading looots of books on the topic and
                     eventually practicing
                     stocks picking. I've started working on <a target="_blank" href="https://financialpanda.pl/"><img
                     src="/assets/icons/panda.png" className="icon"/>FinancialPanda</a>&nbsp; which got eventually
@@ -40,7 +40,7 @@ export default class JobsCont4 extends Component {
                                                                                              href="https://teidepermit.eu/"><img
                     src="/assets/icons/teide5.jpeg" className="icon"/>TeidePermit</a>
                 </p>
-                
+
                 <img src="/assets/icons/subs.jpg" className="image-near-text filled"/>
                 <p>
                     I've created a DeepL translate tool for subtitles. As most of the time subtitles are crappy(aren't
@@ -52,7 +52,7 @@ export default class JobsCont4 extends Component {
                 <p>
                     I've started working on my unique online game as well. Still in progress.
                     Also I've created the instagram thing just to satisfy my photography/shader needs but let it
-                    remain private for now. I like do some posters and print it.
+                    remain private for now. Its about creating unique photography and adding some life to it - I do some posters and print it or just stare at it.
                     I've started learning Photoshop and Adobe Effects. The IG contains of things like this(Yeah that's me on the photo):
                 </p>
                 <div className="image-screenshots">

@@ -11,14 +11,14 @@ export default class AboutMe extends Component {
             <div className="section-content about-content">
                 <div className="section-highlights bordered-container">
                     <div><img src="/assets/me.jpg" className="about-me-img" /></div>
-                    <span className="about-me-name">Tomasz Szepczyński<br />-Software Developer<br /> <span className="about-me-bio">Born on 1990 in Cracow, Poland</span>
+                    <span className="about-me-name">Tomasz Szepczyński<br />-Software Engineer<br /> <span className="about-me-bio">Born in Cracow, Poland</span>
                         <br />
                         <span className="about-me-bio"><a href="mailto: tomasz.szepczynski@gmail.com">tomasz.szepczynski@gmail.com</a></span></span>
                 </div>
                 <div className="section-description bordered-container about-description">
                     <p>
                         Hello there, <br />
-                        I'm a passionate software developer, who likes to mess around with various technologies:
+                        I'm a software engineer. I'd use the word 'passionate' but its too linkedin-ish now, so until I find a new one no adjective for now. I like to mess around with various technologies:
                         </p>
                     <ul>
                         <li>
