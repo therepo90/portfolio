@@ -33,6 +33,7 @@ export default class JobsCont3 extends Component {
                 <p>
                     <br />
                     Professionally I've switched to full backend as it seemed more interesting, also I didn't like the crappy modern frontend world and where it's heading.
+                    Since now I'll be  working for medium-size/small companies in brands like: bookies, cryptocurrency, insurance, fleet planning, advertisement, financials.
                 </p>
             </div>
         </div >
