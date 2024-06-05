@@ -40,13 +40,7 @@ export default class JobsCont4 extends Component {
                                                                                              href="https://teidepermit.eu/"><img
                     src="/assets/icons/teide5.jpeg" className="icon"/>TeidePermit</a>
                 </p>
-                <p>
-                    During my 2 month digital nomading trip in Tenerife I've created a scrapper that finds the seat for
-                    local attractions as these were always occupied. The very same day I found my seat.
-                    Eventually released it for free so other people could use it as well: <a target="_blank"
-                                                                                             href="https://teidepermit.eu/"><img
-                    src="/assets/icons/teide5.jpeg" className="icon"/>TeidePermit</a>
-                </p>
+                
                 <img src="/assets/icons/subs.jpg" className="image-near-text filled"/>
                 <p>
                     I've created a DeepL translate tool for subtitles. As most of the time subtitles are crappy(aren't
