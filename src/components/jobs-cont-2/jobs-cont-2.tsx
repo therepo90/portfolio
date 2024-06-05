@@ -15,7 +15,7 @@ export default class JobsCont2 extends Component {
     render() {
         return <div className="section jobs-cont-2">
             <div className="section-header">
-                Career 2017-present
+                Career 2017-2019
                 </div>
             <div className="section-main-description">
                 <img src="/assets/icons/unity2.png" className="image-near-text filled" />
@@ -29,7 +29,7 @@ export default class JobsCont2 extends Component {
                 <img src="/assets/icons/angular2.png" className="image-near-text no-margin-top" />
                 <p>
                     <br />
-                    I've joined another sport booking company where currently I'm using Angular6.
+                    I was employeed as a webdev guy working with Angular/Node.
                 </p>
             </div>
         </div >
