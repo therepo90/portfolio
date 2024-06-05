@@ -23,6 +23,7 @@ const images = [
     '/assets/gate/eye-left-2.png',
     '/assets/backgrounds/bg4.jpg',
     '/assets/me.jpg',
+    '/assets/japa.jpg',
     '/assets/backgrounds/bg1.jpg',
 ];
 
