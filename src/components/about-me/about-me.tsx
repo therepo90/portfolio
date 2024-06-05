@@ -36,7 +36,7 @@ export default class AboutMe extends Component {
                     </ul>
                     <p>
                         I like bringing fancy ideas to life.<br /> <br />
-                        Currently living in Cracow, employeed as a web developer.<br />
+                        Currently living in Cracow/Wroclaw, employeed as a web developer.<br />
                     </p>
                 </div>
             </div>
