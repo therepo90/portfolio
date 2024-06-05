@@ -10,7 +10,7 @@ export default class AboutMe extends Component {
                 </div>
             <div className="section-content about-content">
                 <div className="section-highlights bordered-container">
-                    <div><img src="/assets/me.jpg" className="about-me-img" /></div>
+                    <div><img src="/assets/japa.jpg" className="about-me-img" /></div>
                     <span className="about-me-name">Tomasz Szepczyński<br />-Software Engineer<br /> <span className="about-me-bio">Born in Cracow, Poland</span>
                         <br />
                         <span className="about-me-bio"><a href="mailto: tomasz.szepczynski@gmail.com">tomasz.szepczynski@gmail.com</a></span></span>

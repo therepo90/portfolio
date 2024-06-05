@@ -4,6 +4,10 @@
         height: 8rem;
         border-radius: 50%;
         box-shadow: 0 0 10px 2px #e6f3ff;
+        transition: all 0.3s linear;
+        &:hover{
+            animation: pulse 1s infinite;
+        }
     }
     
     &-name {
@@ -16,6 +20,28 @@
         font-size: 0.6rem;
     }    
 }
+
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px 2px #e6f3ff;
+        transform: rotate(0deg);
+    }
+    33% {
+        box-shadow: 0 0 40px 20px #e6f3ff;
+        transform: rotate(-45deg);
+    }
+    66% {
+        box-shadow: 0 0 40px 20px #e6f3ff;
+        transform: rotate(45deg);
+    }
+    100% {
+        box-shadow: 0 0 10px 2px #e6f3ff;
+        transform: rotate(0deg);
+    }
+}
+
 
 .section-content.about-content {
     justify-content: center;
