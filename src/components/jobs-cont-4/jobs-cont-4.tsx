@@ -53,6 +53,10 @@ export default class JobsCont4 extends Component {
                     I've started working on my unique online game as well. Still in progress.
                     Also I've created the instagram thing just to satisfy my photography/shader needs but let it
                     remain private for now. Its about creating unique photography and adding some life to it - I do some posters and print it or just stare at it.
+                    Currently storing some work on my custom webgl photo gallery engine: <a href="https://therepo90.github.io/images-portfolio/">Images portfolio</a>.
+                    There were also two projects: shareconfig.com which I dropped right after implementing it.
+                    And the planarity project which I've hanged for some time which I should come back to one day especially in the AI days.
+                    I can't find the codebase but maybe thats good as that may put too many people out of work.
                     I've started learning Photoshop and Adobe Effects. The IG contains of things like this(Yeah that's me on the photo):
                 </p>
                 <div className="image-screenshots">
