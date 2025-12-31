@@ -57,16 +57,16 @@ export default class JobsCont5 extends Component {
 
                 <ul>
                     <li>
-                        <a href="https://zwierzakszukadomu.pl/#about">https://zwierzakszukadomu.pl - been volunteering in Wroclaw animal shelter.</a>
+                        <a href="https://zwierzakszukadomu.pl/#about">https://zwierzakszukadomu.pl</a>  - been volunteering in Wroclaw animal shelter.
                     </li>
                     <li>
-                        <a href="https://psacery.zwierzakszukadomu.pl/tabs/tab1">https://psacery.zwierzakszukadomu.pl/ - app for managing dog walks for animal shelter volunteers in Cracow (+hybrid android app)</a>
+                        <a href="https://psacery.zwierzakszukadomu.pl/tabs/tab1">https://psacery.zwierzakszukadomu.pl/ </a> - app for managing dog walks for animal shelter volunteers in Cracow (+hybrid android app)
                     </li>
                     <li>
-                        <a href="https://sellyoursaas.idontknowhatimdoing.com/app">https://sellyoursaas.idontknowhatimdoing.com/app - app for promoting boring stuff</a>
+                        <a href="https://sellyoursaas.idontknowhatimdoing.com/app">https://sellyoursaas.idontknowhatimdoing.com/app </a> - app for promoting boring stuff
                     </li>
                     <li>
-                        <a href="http://deletesocialmedia.idontknowhatimdoing.com/">http://deletesocialmedia.idontknowhatimdoing.com/ - ...and this</a>
+                        <a href="http://deletesocialmedia.idontknowhatimdoing.com/">http://deletesocialmedia.idontknowhatimdoing.com/ </a> - ...and this
                     </li>
                 </ul>
             </div>
