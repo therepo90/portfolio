@@ -44,6 +44,10 @@ export default class Jobs extends Component {
                  It was about creating web application for explicit solving public contests from Facebook/Twitter to prevent cheating. <br />
                     <a target="_blank" href="/assets/magisterka_tsz.pdf">MSc work(polish&nbsp;version)</a>.
                    <br /> <br />
+                    I created one of the first fancy web apps that would give me millions of dollars: onedayoffame.com - the idea was
+                    there was a big sunshine ball and everytime you entered it was filling up. If you were the last person to enter you
+                    would get a one day of fame - a chunk of the page was all yours for the whole day.
+                    <br/><br/>
                 </p>
                 <img src="/assets/icons/unity2.png" className="image-near-text filled no-margin-top" />
                 <p>

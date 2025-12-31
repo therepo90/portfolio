@@ -16,6 +16,7 @@ import PreloadImages from "./preload-images/preload-images";
 import './main.scss';
 import JobsCont3 from "./jobs-cont-3/jobs-cont-3";
 import JobsCont4 from "./jobs-cont-4/jobs-cont-4";
+import JobsCont5 from "./jobs-cont-5/jobs-cont-5";
 
 const images = [
     '/assets/gate/gate10.jpg',
@@ -53,6 +54,7 @@ export default class Main extends Component {
                     <Navbar/>
                     <div className="page-container">
                         {<AboutMe/>}
+                        <JobsCont5/>
                         <JobsCont4/>
                         <JobsCont3/>
                         <JobsCont2/>
