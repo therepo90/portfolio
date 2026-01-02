@@ -18,25 +18,25 @@ export default class AboutMe extends Component {
                 <div className="section-description bordered-container about-description">
                     <p>
                         Hello there, <br />
-                        I'm a software engineer. I'd use the word 'passionate' but its too linkedin-ish now, so until I find a new one no adjective for now. I like to mess around with various technologies:
+                        I'm a software engineer. I like to mess around with various technologies:
                         </p>
                     <ul>
                         <li>
                             Web development
-                            </li>
+                        </li>
                         <li>
-                            Game development
-                            </li>
+                            Computer graphics
+                        </li>
                         <li>
-                            Augmented Reality
-                            </li>
+                            Electronics
+                        </li>
                         <li>
-                            Hacking
-                            </li>
+                            ...just...software
+                        </li>
                     </ul>
                     <p>
                         I like bringing fancy ideas to life.<br /> <br />
-                        Currently living in Cracow/Wroclaw, employeed as a web developer.<br />
+                        Currently living in Cracow, employeed as a web developer.<br />
                     </p>
                 </div>
             </div>

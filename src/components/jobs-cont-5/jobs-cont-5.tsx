@@ -55,7 +55,7 @@ export default class JobsCont5 extends Component {
 
 
 
-                <ul>
+                <ul style={{overflowX: 'hidden'}}>
                     <li>
                         <a href="https://zwierzakszukadomu.pl/#about">https://zwierzakszukadomu.pl</a>  - been volunteering in Wroclaw animal shelter.
                     </li>
