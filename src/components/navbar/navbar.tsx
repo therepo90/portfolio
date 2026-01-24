@@ -14,6 +14,7 @@ export default class Navbar extends Component {
                 {/*<a target="_blank" href="https://twitter.com/RepoGamesStudio"><img src="/assets/icons/twt.png" className="navbar__img navbar__img--filled" /></a>*/}
                 <a target="_blank" href="https://medium.com/@therepo_90"><img src="/assets/icons/med.png" className="navbar__img navbar__img--filled" /></a>
                 <a target="_blank" href="https://www.shadertoy.com/user/therepo90"><img src="/assets/icons/st.jpg" className="navbar__img navbar__img--filled" /></a>
+                <a target="_blank" href="https://photos.app.goo.gl/LvbQoukx2AYLwJzo6"><img src="/assets/icons/gp1.png" className="navbar__img navbar__img--filled" /></a>
             </div>
         </div>
     }
