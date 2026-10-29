@@ -53,9 +53,7 @@ const projectGroups: ProjectGroup[] = [
             {
                 title: 'CookiesBlock',
                 screenshot: '/assets/icons/cookiesblock.png',
-                description: 'An extension that blocked cookie banners. Along with it I made extensions that filtered out negative news, ' +
-                    'improved the YouTube recommendations wall and created chapters in YouTube videos (before YouTube had them).',
-                link: 'https://cookiesblock.com/',
+                description: 'A Chrome extension that blocked cookie banners on websites.',
                 logo: true,
             },
             {
@@ -122,22 +120,9 @@ const projectGroups: ProjectGroup[] = [
                 link: 'https://psacery.zwierzakszukadomu.pl/',
             },
             {
-                title: 'SkyMinder',
-                screenshot: '/assets/projects/skyminder.jpg',
-                description: 'A web application serving financial reports on companies all over the world - web, PDF and txt. ' +
-                    'I was its main front-end creator and wrote a report engine that cut generating a report from 60 seconds to 200 ms.',
-                link: 'https://application.skyminder.com',
-            },
-            {
                 title: 'One Day of Fame',
                 description: 'A big sunshine ball that filled up with every visit. The last person to enter got a chunk of the page ' +
                     'for the whole day.',
-            },
-            {
-                title: 'Images portfolio',
-                screenshot: '/assets/projects/imagesportfolio.jpg',
-                description: 'My custom WebGL photo gallery engine, where I keep my photography and shader work.',
-                link: 'https://therepo90.github.io/images-portfolio/',
             },
         ],
     },
