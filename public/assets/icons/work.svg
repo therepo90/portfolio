@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <circle cx="50" cy="50" r="50" fill="#fff"/>
+    <!-- wrench -->
+    <g transform="translate(50 32) scale(1.05) rotate(45)" fill="#3b82c4">
+        <rect x="-3" y="-8" width="6" height="29" rx="3"/>
+        <circle cy="-13" r="8"/>
+        <rect x="-3.2" y="-24" width="6.4" height="11" fill="#fff"/>
+        <circle cy="17" r="1.6" fill="#fff"/>
+    </g>
+    <!-- hammer, outlined in white so it reads on top of the wrench -->
+    <g transform="translate(50 32) scale(1.05) rotate(-45)" stroke="#fff" stroke-width="2.5" paint-order="stroke">
+        <rect x="-3" y="-8" width="6" height="30" rx="3" fill="#a8652a"/>
+        <path d="M-13 -17 h20 l6 3 v3 l-6 3 h-20 a2 2 0 0 1 -2 -2 v-5 a2 2 0 0 1 2 -2 z" fill="#4b5563"/>
+    </g>
+    <text text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif"
+          font-size="18" font-weight="800" letter-spacing="0.5" fill="#1a1a1a">
+        <tspan x="50" y="70">my</tspan>
+        <tspan x="50" y="86">work</tspan>
+    </text>
+</svg>

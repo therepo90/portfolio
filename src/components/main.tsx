@@ -17,6 +17,8 @@ import './main.scss';
 import JobsCont3 from "./jobs-cont-3/jobs-cont-3";
 import JobsCont4 from "./jobs-cont-4/jobs-cont-4";
 import JobsCont5 from "./jobs-cont-5/jobs-cont-5";
+import MyWork from "./my-work/my-work";
+import { ROUTES } from "../constants";
 
 const images = [
     '/assets/gate/gate10.jpg',
@@ -35,11 +37,32 @@ export default class Main extends Component {
 
     state = {
         gateVisible: false,
+        route: Main.currentRoute(),
+    }
+
+    static currentRoute() {
+        return window.location.hash.replace(/^#/, '') || ROUTES.HOME;
+    }
+
+    componentDidMount() {
+        window.addEventListener('hashchange', this.onHashChange);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('hashchange', this.onHashChange);
+    }
+
+    onHashChange = () => {
+        this.setState({
+            route: Main.currentRoute(),
+        });
+        window.scrollTo(0, 0);
     }
 
     onImagesLoaded = () => {
         this.setState({
-            gateVisible: GATE_ENABLED,
+            // the gate is the intro of the home page only
+            gateVisible: GATE_ENABLED && this.state.route !== ROUTES.MY_WORK,
         })
     }
 
@@ -52,7 +75,9 @@ export default class Main extends Component {
                 {this.state.gateVisible && <Gate/>}
                 {<React.Fragment>
                     <Navbar/>
-                    <div className="page-container">
+                    {this.state.route === ROUTES.MY_WORK ? <div className="page-container">
+                        <MyWork/>
+                    </div> : <div className="page-container">
                         {<AboutMe/>}
                         <JobsCont5/>
                         <JobsCont4/>
@@ -65,7 +90,7 @@ export default class Main extends Component {
                         <MidYears/>
                         {<EarlyYearsCont/>}
                         {<EarlyYears/>}
-                    </div>
+                    </div>}
                 </React.Fragment>
                 }
             </React.Fragment>
